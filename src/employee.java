@@ -110,6 +110,7 @@ public class employee {
 	      System.out.println("\nAdding a new employee:");
 	      System.out.print("Enter employee id: ");
 	      int id = scanner.nextInt();
+	      scanner.nextLine();
 	      System.out.print("Enter employee name: ");
 	      String name = scanner.nextLine();
 	      System.out.print("Enter employee age: ");
